@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Tailwind App</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-green-100">
+  <!--
+      This HTML file is a template.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+
+      Start modyfing from here.
+    -->
+  <header class="flex justify-around w-full h-28 bg-green-300 items-center text-xl sm:text-2xl font-bold">
+    <div class="logo flex justify-center items-center">
+      <img class="w-10" src="./src/assets/avocado.png" alt="logo del Sr. Avocado">
+      <h1 class="">Sr. Avocado</h1>
+    </div>
+    <nav>
+      <ul>
+        <a href="#" class="hover:text-white">About we</a>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="app"></section>
+  </main>
+  <footer class=" flex items-center justify-center w-full h-28 bg-green-300  text-xl sm:text-2xl font-bold">
+    <span>Los mejores avocados del país</span>
+  </footer>
+  <!-- Add more scripts here -->
+  <script src="./src/index.js"></script>
+</body>
+
+</html>
